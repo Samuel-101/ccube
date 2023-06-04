@@ -4,7 +4,7 @@
 f="users.txt"                                         #stores the data in users.txt  into a variable 'f'
     
 k=0                                                   #initialize 4 variables k,m,u,h representing the 4 kingdoms
-m=0
+m=
 u=0
 h=0
 
