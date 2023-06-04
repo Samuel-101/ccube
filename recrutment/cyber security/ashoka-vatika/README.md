@@ -1,4 +1,3 @@
-<!-- GITHUB_FORBID_PREVIEW -->
 
 def binary(t):
     bin_text=""
