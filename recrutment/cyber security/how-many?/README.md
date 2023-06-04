@@ -33,26 +33,26 @@ t=$((k+m+u+h))
 echo "Total count of user IDs are: $t"                   
 
 
-stores the data in users.txt  into a variable 'f'.
+line-4:stores the data in users.txt  into a variable 'f'.
 
 
-initialize 4 variables k,m,u,h representing the 4 kingdoms .
+line6-9:initialize 4 variables k,m,u,h representing the 4 kingdoms .
 
 
-using while loop to read each line of the users.txt which is stored in f.
+line11:using while loop to read each line of the users.txt which is stored in f.
 
 
- using if conditional operator and checking if any lines have the required ID.
+line13,17,21,25:using if conditional operator and checking if any lines have the required ID.
  
  
- incrementing the value of the variable when if condition is true  
+ line14,18,22,26:incrementing the value of the variable when if condition is true  
  
  
- initialise the vairable f into the loop hich contains users.txt
+line29; initialise the vairable f into the loop hich contains users.txt
  
  
- sums up all the value of the variables and stores it into t.
+line31: sums up all the value of the variables and stores it into t.
  
  
- printing t
+line33: printing t
 
