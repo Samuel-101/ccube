@@ -16,7 +16,7 @@ def hi(c,v):
          if (u[i] == v[i]):
             a+= "0"
          else:
-            a+= "1"
+            a+= "1" 
     a=bytes(a,'utf-8')
     l=[]
     for i in range(0,len(a), 8):
