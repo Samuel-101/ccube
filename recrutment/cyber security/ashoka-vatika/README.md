@@ -1,5 +1,5 @@
 
-def binary(t):
+def binary(t):<br>
     bin_text=""
     for k in t:
         bin_text += bin(ord(k))[2:].zfill(8)
