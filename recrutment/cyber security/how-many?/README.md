@@ -48,7 +48,7 @@ line13,17,21,25:using if conditional operator and checking if any lines have the
  line14,18,22,26:incrementing the value of the variable when if condition is true  
  
  
-line29; initialise the vairable f into the loop hich contains users.txt
+line29: initialise the vairable f into the loop hich contains users.txt
  
  
 line31: sums up all the value of the variables and stores it into t.
