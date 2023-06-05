@@ -25,7 +25,7 @@ def hi(c,v):                                                   #defined a functi
     for i in l:                                                 #makes the each element in the list into string and then returns the value
      hug += chr(int(i,2))
     return hug
-c ="|OP `Z<E] |Y\ $"
+c ="|OP`Z<E]|Y\$"
 k ="Jai Shree Ram!"
 print(hi(c,k))
 ```
