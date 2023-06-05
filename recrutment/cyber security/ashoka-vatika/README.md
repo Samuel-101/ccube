@@ -48,5 +48,5 @@ then made them into bytes
 line21 to 23:took 8 of the bytes and appended into a list.
 
 then it converts the list into a string and returns it.
-
+the coordinates are given in a txt file.
 
