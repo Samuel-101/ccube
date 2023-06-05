@@ -31,6 +31,4 @@ using insert function we insert spaces into the known_password_dictionary
 
 then we use a loop to brute force and find the pasword by trying out all of the combinations possible,first we input the first chharacter and runs the second loop whick checks all the characters and so on
 
-using try and except we use pyzipper and extracts and finds the password which hass the hint.txt.
-
-
+using try and except we use pyzipper and extracts and finds the password which has the hint.txt.
