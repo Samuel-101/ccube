@@ -1,3 +1,4 @@
+```
 Z=[]<br>
 k=[]<br>
 mes=input("enter:")<br>
@@ -27,8 +28,8 @@ def fuN(text,s):<br>
     return result<br>
 k=fuN(F(Fu(mes)), 4)<br>
 print(k)<br>
+```
 
-'''
 first we make the same 3 functions for decryption of the message.
 
 first function we the input and makes it into ascii and then does the xor function and then makes it into the character and append it into st which is a list.
@@ -36,5 +37,5 @@ first function we the input and makes it into ascii and then does the xor functi
 in second function,if i<11, we make the input into ascii and then subtracts it with i and 5 and then makes it into character and then appends into the list z.
 
 for third function which has 2 arguments, we use if condition to find out if the character is numeric or an upper character or something else. If its numeric we take the ascii value and add 1 to it and then fnds the character of it. If its a upper character we take the ascii value aand substracts the key and 65 from it and if its isnt both of them,it goes into the else condition which does an XOR operation again on it.  
-'''
+
 
