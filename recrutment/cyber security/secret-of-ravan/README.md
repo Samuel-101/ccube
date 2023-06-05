@@ -1,4 +1,4 @@
-
+```
 import pyzipper<br>
 
 characters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '-', '+', '=', '{', '}', '[', ']', '|', ';', ':', '"', "'", '<', '>', '?', ',', '.', '/', '`', '~'] 
@@ -23,7 +23,7 @@ for i in characters:<br>
                 break<br>
         except Exception as e:<br>
             print(f"failed: {e}")<br>
-'''
+```
 
 we store the zip file in a variable 'x'
 
@@ -33,4 +33,4 @@ then we use a loop to brute force and find the pasword by trying out all of the 
 
 using try and except we use pyzipper and extracts and finds the password which hass the hint.txt.
 
-'''
+
