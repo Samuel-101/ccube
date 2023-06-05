@@ -1,4 +1,4 @@
-
+```
 #!/bin/bash                                   
 
 f="users.txt"                                        
@@ -13,15 +13,12 @@ do
   if [[ $line == *553* ]]; then                         
         ((k=k+1))                                         
     fi
-
     if [[ $line == *828* ]]; then
         ((m=m+1))
     fi
-
     if [[ $line == *723* ]]; then
         ((u=u+1))
     fi
-
     if [[ $line == *698* ]]; then
         ((h=h+1))
     fi
@@ -30,8 +27,8 @@ done < "$f"
 
 t=$((k+m+u+h))                                          
 
-echo "Total count of user IDs are: $t"                   
-
+echo "Total count of user IDs are: $t" 
+```
 
 line-4:stores the data in users.txt  into a variable 'f'.
 
