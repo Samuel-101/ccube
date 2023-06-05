@@ -27,6 +27,7 @@ do
     fi
 done < "$f"                              #used to input users.txt in the while loop.
 
+
 t=$((k+m+u+h))                          #we add the numbers and store it in a variable t.
 
 echo "Total count of user IDs are: $t"  # output 
