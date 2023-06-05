@@ -1,4 +1,4 @@
-
+```
 def binary(t):<br>
     bin_text=""<br>
     for k in t:<br>
@@ -28,7 +28,7 @@ def hi(c,v):<br>
 c ="|OP `Z<E] |Y\ $"<br>
 k ="Jai Shree Ram!"<br>
 print(hi(c,k))<br>
-'''
+```
 made a functipn to convert string into binary
 
 
@@ -48,5 +48,5 @@ then made them into bytes
 line21 to 23:took 8 of the bytes and appended into a list.
 
 then it converts the list into a string and returns it.
-'''
+
 
