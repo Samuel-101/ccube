@@ -1,33 +1,37 @@
 ```
-#!/bin/bash                                   
+#!/bin/bash
 
-f="users.txt"                                        
-    
-k=0                                                  
-m=
+f="users.txt"
+                                            #initializing the variables for each kingdoms
+k=0
+m=0
 u=0
 h=0
 
-while read -r line                                     
+while read -r line                         #while loop to read the lines in the users.txt
 do
-  if [[ $line == *553* ]]; then                         
-        ((k=k+1))                                         
+    if [[ $line == *553* ]]; then          #if condition to check if number is there in the line.
+        ((k=k+1))                          #increments the value of the variable with 1 wh nif condition is true
     fi
+
     if [[ $line == *828* ]]; then
         ((m=m+1))
     fi
+
     if [[ $line == *723* ]]; then
         ((u=u+1))
     fi
+
     if [[ $line == *698* ]]; then
         ((h=h+1))
     fi
+done < "$f"                              #used to input users.txt in the while loop.
 
-done < "$f"                                             
+t=$((k+m+u+h))                          #we add the numbers and store it in a variable t.
 
-t=$((k+m+u+h))                                          
+echo "Total count of user IDs are: $t"  # output 
 
-echo "Total count of user IDs are: $t" 
+ 
 ```
 
 line-4:stores the data in users.txt  into a variable 'f'.
